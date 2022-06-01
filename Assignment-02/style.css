@@ -1,0 +1,43 @@
+section{
+    width: 50vw;
+    margin: 50px auto;
+}
+h1{
+    color: orange;
+    text-align: center;
+    
+}
+
+h1::before{
+    content:'\2706';
+    color: orange;
+}
+div{
+   
+   background-color: black;
+   border: 2px solid black;
+    padding: 10px ;
+    color: white;
+    width: 60vw;
+    top: 0px;
+    position: sticky;
+
+}
+li{
+    background-color: grey;
+    list-style: none;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px ;
+    margin: 20px;
+    
+
+}
+ul li::before{
+    content: '\260E';
+    color: white;
+}
+body{
+    background-color: aqua;
+}

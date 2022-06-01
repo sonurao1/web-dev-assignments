@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+button{
+    font-size: 1.3rem;
+    border: 2px solid orangered;
+    padding:10px 40px;
+    color:orangered;
+    background: none;
+    transition-property:transform;
+    transition-duration: 0.3s;
+
+    
+}
+button:hover{
+    box-shadow:0px 5px 5px goldenrod;
+    
+    transform: translateY(-5px);
+    color: gold;
+    border: 2px solid gold;
+    cursor: pointer;
+}
